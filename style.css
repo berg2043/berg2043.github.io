@@ -1,6 +1,10 @@
 h1 {
   font-weight: bold;
   text-align: center;
+  font-size:50px;
+  font-family: baphomet;
+  line-height: 200px;
+  padding-left: 200px;
 }
 h3 {
   margin:0px;
@@ -40,4 +44,14 @@ body{
   margin: 40px auto 60px;
   color:white;
   font-size-adjust: .6;
+  font-family:Verdana
+}
+.newentry {
+  border-top: 1px solid black;
+}
+.titling {
+  font-weight:bolder;
+}
+.centered {
+  text-align: center;
 }

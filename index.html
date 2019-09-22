@@ -6,7 +6,10 @@
 </head>
 <body>
   <name>
-    <h1>Phillip Berg</h1>
+    <div class="flex-box">
+      <h1><span>Phillip Berg</span></h1>
+      <span><img src="./face.png" alt="Picture of Phillip Berg"></span>
+    </div>
   </name>
   <tabs>
     <div class="tab">
@@ -48,7 +51,7 @@
     <div id="Education" class="tabcontent">
       <p>
         <div class="flex-box">
-          <span style="font-weight: bold;">MS, Experimental Psychology</span>
+          <span class="titling">MS, Experimental Psychology</span>
           <span>July 2017</span>
         </div>
         <div class="flex-box">
@@ -57,7 +60,7 @@
         </div>
       </p>
       <div class="flex-box">
-        <span style="font-weight: bold;">BS, Psychology</span>
+        <span class="titling">BS, Psychology</span>
         <span>May 2013</span>
       </div>
       <div class="flex-box">
@@ -68,7 +71,7 @@
     <div id="Work" class="tabcontent">
       <p>
         <div class="flex-box">
-          <span style="font-weight: bold;">Director of Services</span>
+          <span class="titling">Director of Services</span>
           <span>April 2018 – Current</span>
         </div>
         <div class="flex-box">
@@ -84,9 +87,9 @@
         Coordinated the addition of clients to the programs.<br>
         Directly addressed grievances of guardians with programs.<br>
       </p>
-      <p>
+      <p class="newentry">
         <div class="flex-box">
-          <span style="font-weight: bold;">Program Coordinator</span>
+          <span class="titling">Program Coordinator</span>
           <span>June 2016 – April 2018</span>
         </div>
         <div class="flex-box">
@@ -102,9 +105,9 @@
         Managed staff’s direction and implementation of programming.<br>
         Collaborated with outside team members to assure quality care.<br>
       </p>
-      <p>
+      <p class="newentry">
         <div class="flex-box">
-          <span style="font-weight: bold;">America Reads Coordinator</span>
+          <span class="titling">America Reads Coordinator</span>
           <span>September 2014 – May 2015; September 2015 – May 2016</span>
         </div>
         <div class="flex-box">
@@ -122,9 +125,9 @@
         Observed and managed undergraduate tutors on the job.<br>
         Promoted professionalism and appropriate child/tutor interactions.<br>
       </p>
-      <p>
+      <p class="newentry">
         <div class="flex-box">
-          <span style="font-weight: bold;">Direct Care Assistant</span>
+          <span class="titling">Direct Care Assistant</span>
           <span>May 2013 – August 2015</span>
         </div>
         <div class="flex-box">
@@ -139,9 +142,9 @@
         levels.<br>
         Monitored, reported, and redirected client behaviors.<br>
       </p>
-      <p>
+      <p class="newentry">
         <div class="flex-box">
-          <span style="font-weight: bold;">Personal Care Assistant</span>
+          <span class="titling">Personal Care Assistant</span>
           <span>June 2012 – January 2013</span>
         </div>
         <div class="flex-box">
@@ -158,7 +161,7 @@
     <div id="Research" class="tabcontent">
       <p>
         <div class="flex-box">
-          <span style="font-weight: bold;">
+          <span class="titling">
             Lead Researcher, Clinical Research Lab and <br>
             Brain and Behavior Lab
           </span>
@@ -194,10 +197,11 @@
       </p>
     </div>
     <div id="References" class="tabcontent">
-      <p>Available upon request.</p>
+      <p class="centered">Available upon request.</p>
     </div>
   </content>
   <script>
+    //Causes one tab to open by default
     document.getElementById("defaultOpen").click();
     //Manages changing tabs
     function switchTab(evt, tabName) {
